@@ -1,0 +1,157 @@
+.body{
+	background-color: #f1e5f1;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+.logo{
+	widht: auto;
+	height: 80px;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+
+.menu{
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.menu li{
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #524280;
+	font-family: dongle, sans-serif;
+	font-size: 35px;
+}
+
+.menu li a{
+	color: #524280;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.menu li a:hover{
+	padding-right: 18px;
+	padding-left: 18px;
+	color: #f1e5f1;
+	background-color: #524280;
+	border-radius: 80px;
+}
+
+.iconosmenu{
+	display: flex;
+	padding-right: 50px;
+	color: #524280;
+	font-size: 32px;
+}
+
+.iconosmenu a{
+	color: #524280;
+}
+
+.iconosmenu a:hover{
+	color: #524280;
+}
+
+.iconosmenu li{
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+
+.iconosmenu li:hover{
+	font-size: 37px;
+	transition: all 0.5s ease;
+}
+
+
+
+
+
+
+.header{
+	font-size: 50px;
+	font-family: dongle;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	color: #524280;
+}
+
+
+
+
+
+.secciontres{
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 45px;	
+}
+
+.imagenprod{
+	widht:auto;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+.tituloprod{
+	text-align: center;
+	font-family: dongle, sans-serif;
+	font-size: 40px;
+	color: #524280;
+	line-height: 20%;
+}
+
+.precioprod{
+	text-align: center;
+	font-family: dongle, sans-serif;
+	font-size: 30px;
+	color: #524280;
+	line-height: 90%;
+}
+
+.botontres{
+	align-items: center;
+	background-color: none;
+	border: solid;
+	outline-color: #1a1934;
+	color: #1a1934;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: dongle, sans-serif;
+	font-size: 30px;
+	cursor: pointer;
+	border-radius: 80px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.botontres:hover{
+	color: #f1e5f1;
+	background-color: #1a1934;
+}
+
+footer{
+	padding-top: 20px;
+}
+
+
+#copyright{
+	font-family: dongle, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: #524280;
+}

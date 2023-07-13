@@ -1,0 +1,161 @@
+.body{
+	background-color: #f1e5f1;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+.logo{
+	widht: auto;
+	height: 80px;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+
+.menu{
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.menu li{
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #524280;
+	font-family: dongle, sans-serif;
+	font-size: 35px;
+}
+
+.menu li a{
+	color: #524280;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.menu li a:hover{
+	padding-right: 18px;
+	padding-left: 18px;
+	color: #f1e5f1;
+	background-color: #524280;
+	border-radius: 80px;
+}
+
+.iconosmenu{
+	display: flex;
+	padding-right: 50px;
+	color: #524280;
+	font-size: 32px;
+}
+
+.iconosmenu li{
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+
+.iconosmenu li:hover{
+	font-size: 37px;
+	transition: all 0.5s ease;
+}
+
+.iconosmenu a{
+	color: #524280;
+}
+
+.iconosmenu a:hover{
+	color: #524280;
+}
+
+
+
+
+
+
+.titulo{
+	font-family: dongle;
+	font-size: 65px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 100px;
+	color: #524280;
+	line-height: 20%;
+}
+
+.descripcion{
+	color: #524280;
+	font-family: dongle;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 35px;
+	padding-right: 25px;
+}
+
+
+
+.seccionuno{
+	margin-top: 40px;
+	margin-right: 150px;
+}
+
+.imagenprevia{
+	widht:auto;
+	height: 550px;
+	display: block;
+	margin-left: 240px;
+	margin-top: 50px;
+	margin-right: auto;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+.forms{
+	padding-top: 10px;
+}
+
+.botontres{
+	align-items: center;
+	background-color: none;
+	border: solid;
+	outline-color: #1a1934;
+	color: #1a1934;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: dongle, sans-serif;
+	font-size: 30px;
+	cursor: pointer;
+	border-radius: 80px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.botontres:hover{
+	color: #f1e5f1;
+	background-color: #1a1934;
+}
+
+.descripcion2{
+	padding-top: 50px;
+	color: #524280;
+	font-family: dongle;
+	font-weight: lighter;
+	font-size: 35px;
+}
+
+
+
+footer{
+	margin-top: 20px;
+}
+
+#copyright{
+	font-family: dongle, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: #524280;
+}

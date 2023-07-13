@@ -1,0 +1,140 @@
+.body{
+	background-color: #f1e5f1;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+.logo{
+	widht: auto;
+	height: 80px;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+
+.menu{
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.menu li{
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #524280;
+	font-family: dongle, sans-serif;
+	font-size: 35px;
+}
+
+.menu li a{
+	color: #524280;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.menu li a:hover{
+	padding-right: 18px;
+	padding-left: 18px;
+	color: #f1e5f1;
+	background-color: #524280;
+	border-radius: 80px;
+}
+
+.iconosmenu{
+	display: flex;
+	padding-right: 50px;
+	color: #524280;
+	font-size: 32px;
+}
+
+.iconosmenu a{
+	color: #524280;
+}
+
+.iconosmenu a:hover{
+	color: #524280;
+}
+
+.iconosmenu li{
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+
+.iconosmenu li:hover{
+	font-size: 37px;
+	transition: all 0.5s ease;
+}
+
+.ticket{
+	background-color: #524280;
+	border-radius: 30px;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.parrafo{
+	font-family: dongle, sans-serif;
+	font-size: 35px;
+	color: #f2e6f3;
+	line-height: 30%;
+}
+
+
+.seccionuno{
+	padding-top: 50px;
+}
+
+.imagen{
+	widht:auto;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+.tituloprod{
+	font-family: dongle;
+	font-weight: bold;
+	font-size: 50px;
+	color: #f2e6f3;
+	line-height: 20%;
+}
+
+.precioprod{
+	font-family: dongle, sans-serif;
+	font-size: 35px;
+	color: #f2e6f3;
+	line-height: 90%;
+}
+
+.total{
+	font-family: dongle, sans-serif;
+	text-align: right;
+	font-size: 35px;
+	color: #f2e6f3;
+	line-height: 90%;
+	margin-right: 100px;
+}
+
+footer{
+	margin-top: 20px;
+}
+
+#copyright{
+	font-family: dongle, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: #524280;
+}
+
